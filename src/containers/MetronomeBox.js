@@ -69,7 +69,6 @@ class MetronomeBox extends Component{
   }
 
   playSound(){
-    // const audioFile = new Audio(this.state.sound)
     this.state.sound.play()
   }
 
